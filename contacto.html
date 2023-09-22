@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto - Restaurante Delicioso</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo"></div> <!-- Logotipo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="menu.html">Nuestro Menú</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="areaPrincipal">
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <p>¡Nos encantaría escuchar de ti! Puedes ponerte en contacto con nosotros a través de los siguientes medios:</p>
+
+            <ul>
+                <li>Teléfono: (961) 603-7865</li>
+                <li>Correo Electrónico: info@restaurantedelicioso.com</li>
+                <li>Dirección: 123 Calle Principal, Tuxtla Gutierrez.</li>
+            </ul>
+
+            <h2>Horario de Atención</h2>
+            <p>Estamos abiertos todos los días de la semana:</p>
+            <ul>
+                <li>Lunes a Viernes: 11:00 AM - 10:00 PM</li>
+                <li>Sábados y Domingos: 12:00 PM - 9:00 PM</li>
+            </ul>
+
+            <h2>Formulario de Contacto</h2>
+            <form action="enviar.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restaurante Delicioso</p>
+    </footer>
+
+</body>
+</html>
